@@ -1,0 +1,36 @@
+body, html {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif; /* Cambia la fuente del documento completo */
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-image: url('../public/fondotodo.jpg'); /* Reemplaza 'ruta/a/la/imagen.jpg' con la ruta de tu imagen de fondo */
+  background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+  background-position: center; /* Centra la imagen en el fondo */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+.app-container {
+  max-width: 50%;
+  height: 50%;
+  margin: auto;
+  overflow-y: auto; /* Agrega un scroll vertical si el contenido excede el tamaño de la pantalla */
+  text-align: center; /* Centra el contenido horizontalmente */
+}
+
+.app-title {
+  color: #D2DCDE;
+  font-size: 70px;
+}
+
+#root {
+  margin: 0 24px;
+  position: relative;
+  min-height: 100vh;
+}
+
+/* Reglas para dispositivos móviles (ancho máximo de 600px) */
+@media only screen and (max-width: 600px) {
+  .app-container {
+    max-width: 90%; /* Reducir el ancho máximo del contenedor en dispositivos móviles */
+  }
+}
