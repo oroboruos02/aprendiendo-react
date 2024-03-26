@@ -1,75 +1,63 @@
-# Repositorio base de Introducción a React.js
+# Todo List en React
 
-¡Hola, Platzinauta!
+¡Bienvenido al Todo List en React!
 
-En este repositorio encontrarás el código de todas las clases del [Curso de Introducción a React.js](https://platzi.com/reactjs). Para empezar solo debes clonar este repositorio (`git clone`), instalar sus dependencias (`npm i`) y ejecutar la aplicación (`npm start`).
+Esta aplicación te permite gestionar tu lista de tareas de manera eficiente y sencilla utilizando React. Puedes agregar nuevas tareas, marcarlas como completadas y eliminarlas cuando ya no sean necesarias.
 
-La rama principal contiene el código con el que eempezamos el curso. En las demás ramas encontrarás el código de las siguientes clases y finalmente el deploy de la aplicación.
+## Características
 
-¡Mucha suerte aprendiendo React! #NuncaParesDeAprender
+- **Agregar Tareas:** Añade nuevas tareas a tu lista fácilmente.
+- **Marcar como Completadas:** Marca tus tareas como completadas una vez que las hayas terminado.
+- **Eliminar Tareas:** Elimina las tareas que ya no necesitas con un simple clic.
+- **Interfaz Amigable:** Una interfaz de usuario intuitiva y fácil de usar que te permite gestionar tus tareas de manera eficiente.
 
-## Getting Started with Create React App
+## Capturas de Pantalla
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+¡Echa un vistazo a algunas capturas de pantalla de la aplicación!
 
-## Available Scripts
+![Pantalla ordenador y tablet](https://github.com/oroboruos02/todo_machine_react/blob/master/Screenshot-todo-comp.png?raw=true)
+![Pantalla celular](https://github.com/oroboruos02/todo_machine_react/blob/master/Screenshot-todo-cel.png?raw=true)
 
-In the project directory, you can run:
 
-### `npm start`
+## Cómo Usar
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Clona este repositorio a tu máquina local utilizando el siguiente comando:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    ```bash
+    git clone https://github.com/tu-usuario/todo-list-react.git
+    ```
 
-### `npm run build`
+2. Instala las dependencias del proyecto:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    ```bash
+    npm install
+    ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Inicia la aplicación:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    ```bash
+    npm start
+    ```
 
-### `npm run eject`
+4. Abre tu navegador web y visita `http://localhost:3000` para ver la aplicación en acción.
+   
+6. Echale un vistazo a la aplicacion directamente de GitHub Pages en el siguiente enlace:
+   [Página Principal del Repositorio](https://oroboruos02.github.io/todo_machine_react/)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Contribución
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+¡Contribuciones son bienvenidas! Si deseas mejorar esta aplicación, por favor sigue estos pasos:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Haz un fork del proyecto.
+2. Crea una nueva rama (`git checkout -b feature/mejora-increible`).
+3. Haz tus cambios y commitéalo (`git commit -am 'Agrega una mejora increíble'`).
+4. Sube tu rama (`git push origin feature/mejora-increible`).
+5. Abre un Pull Request.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Autor
 
-## Learn More
+Este proyecto fue desarrollado por [Divar Parra Muñoz](https://github.com/oroboruos02).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Licencia
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Este proyecto está bajo la Licencia MIT - consulta el archivo [LICENSE](LICENSE) para más detalles.
